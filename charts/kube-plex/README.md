@@ -17,6 +17,8 @@ The following tables lists the configurable parameters of the Plex chart and the
 | `timezone`                 | Timezone plex instance should run as, e.g. 'America/New_York' | `Europe/London` |
 | `service.type`          | Kubernetes service type for the plex GUI/API | `ClusterIP` |
 | `service.port`          | Kubernetes port where the plex GUI/API is exposed| `32400` |
+| `service.httpPort`          | Kubernetes port where the plex GUI/API is exposed| `80` |
+| `service.httpsPort`          | Kubernetes port where the plex GUI/API is exposed| `443` |
 | `service.annotations`   | Service annotations for the Plex GUI | `{}` |
 | `service.labels`        | Custom labels | `{}` |
 | `service.loadBalancerIP` | Loadbalance IP for the Plex GUI | `{}` |
